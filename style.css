@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&family=Wallpoet&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    padding: 8%;
+    gap: 10px 20px;
+}
+.map-container{
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+path{
+    fill: green;
+    stroke: #ffffff;
+    stroke-width:2px;
+    cursor: pointer;
+    transition: 1.5s;
+    
+}
+path:hover{
+    fill: blue;
+    stroke: #ffffff;
+    stroke-width:2px;
+    cursor: pointer;
+}
+.containet{
+    width: 375px;
+    height:  417px;
+    background:#ff4040;
+    align-items: center;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25), 0 2px 5px 0 rgba(0,0,0,0.06);
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    padding: 2%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.UF{
+    position: relative;
+    box-shadow: 5px 5px 5px black;
+    width: 5vw;
+    height: 10vh;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color:#55A38B;
+}
+h1{
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    padding: 30%;
+    color: #ffffff;
+}
+.estado{
+    
+}
